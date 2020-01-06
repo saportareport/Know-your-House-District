@@ -71,7 +71,7 @@ L.geoJson(districts, {
 
             if (feature.properties.house_social_insta === "") {
                 document.getElementById("instagram").innerHTML = ''}
-            else {document.getElementById("instagram").innerHTML = '<a href="' + feature.properties.insta + '" rel="noopener">Instagram</a>'}
+            else {document.getElementById("instagram").innerHTML = '<a href="' + feature.properties.house_social_insta + '" rel="noopener">Instagram</a>'}
                 
         })
     }
